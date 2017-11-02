@@ -1,0 +1,11 @@
+{
+  "prompts": {
+    "name": {
+      "required": true
+    },
+    "port": {
+      "default": 8888
+    }
+  },
+  "filters": {}
+}

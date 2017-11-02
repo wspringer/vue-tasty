@@ -1,0 +1,24 @@
+{
+  "name": "{{name}}",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --port {{port}}"
+  },
+  "author": "{{author}}",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^2.5.2"
+  },
+  "devDependencies": {
+    "coffeescript": "^2.0.2",
+    "coffeescript-loader": "0.0.11",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-webpack-plugin": "^2.30.1",
+    "pug": "^2.0.0-rc.4",
+    "pug-loader": "^2.3.0",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4"
+  }
+}
