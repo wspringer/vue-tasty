@@ -7,10 +7,11 @@
     "start": "webpack-dev-server --port {{port}}"
   },
   "author": "{{author}}",
-  "license": "ISC",
+  "license": "UNLICENSED",
   "dependencies": {
     "vue": "^2.5.2"
   },
+  "private": true,
   "devDependencies": {
     "coffeescript": "^2.0.2",
     "coffeescript-loader": "0.0.11",
