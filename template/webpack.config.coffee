@@ -15,6 +15,10 @@ module.exports =
   module: rules: [
     { test: /\.coffee/, use: 'coffeescript-loader' }
     { test: /\.pug/,    use: 'pug-loader' }
+    { 
+      test: /\.vue$/
+      loader: 'vue-loader'
+    }
   ]
   plugins: [
     new ExtractTextPlugin('[name].css')
